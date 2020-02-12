@@ -1,0 +1,31 @@
+
+body  
+{
+	color: purple;
+	background-color: lightblue; 
+	font-family: Courier New;
+	margin-right: 50px;
+	margin-left: 50px;
+	padding: 20px;
+	border-style: dashed double;
+}
+h1
+{
+	text-align: center;
+	font-family: Courier New;
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: italic;
+}	
+
+footer
+{
+	text-align: center;	
+}
