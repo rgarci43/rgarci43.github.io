@@ -3,7 +3,7 @@ body
 {
 	color: purple;
 	background-color: lightblue; 
-	font-family: Courier New;
+	font-family: Courier new;
 	margin-right: 50px;
 	margin-left: 50px;
 	padding: 20px;
@@ -27,5 +27,83 @@ figcaption
 
 footer
 {
-	text-align: center;	
+   width: 98%;
+   padding: 10px;
+   background-color: gray;
+   color: purple;
+   text-align: center;
+   border-style: solid;
 }
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color:gray;
+}
+
+nav a:link {
+  color: lightblue;
+}
+
+nav a:visited {
+  color: lightblue;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav a:active {
+  color: lightblue;
+}
+
+/* Table Recipe */
+
+table {
+  background-color: gray;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 20px;
+  font-family: Courier New;
+}
+
+table, th, td {
+  border: 2px solid black;
+  padding: 6px;
+}
+
+table tr:nth-child(even){
+  background-color: gray;
+}
+
+table tr:nth-child(odd){
+  background-color: lightblue;
+}
+
+table tr:hover {
+  background-color: gray;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: gray;
+  color: lightblue ;
+}
+
+.preparation{
+  padding-top: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
